@@ -1,0 +1,47 @@
+.home-design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;;
+    background: linear-gradient(to right, #375c9f, #2a5298);
+    color:solid black;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    padding: 0 18px;
+    box-sizing:border-box;
+}
+
+.home-title{
+    font-size: 3rem;
+    margin: bold;
+    font-weight: 20px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 5px rgba(0,0,0.2);
+    transform:0.5s ease;
+}
+
+.home-description{
+    font-size: 1.5rem;
+    max-width: 800px;
+    line-height:1.6;
+    margin:0 auto;
+    letter-spacing: .5px;
+    opacity:0.5;
+}
+
+.home-title:hover{
+    color: red;
+    font-size: 3.2rem;
+    transition: color 0.3s ease,transform 1s ease;
+}
+
+@media( max-width:700px ) {
+    .home-title{
+        font: size 2.5em;;
+    }
+    .home-description{
+        font-size: 1.2rem;
+    }
+    
+}
